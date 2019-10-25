@@ -34,13 +34,13 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 sudo cp -avr files/.zsh_custom ~
 
-sudo cp .gitconfig ~
-sudo cp .bashrc ~
-sudo cp .bash_logout ~
-sudo cp .pam_environment ~
-sudo cp .profile ~
-sudo cp .shell.pre-oh-my-zsh
-sudo cp .zshrc ~
+sudo cp files/.gitconfig ~
+sudo cp files/.bashrc ~
+sudo cp files/.bash_logout ~
+sudo cp files/.pam_environment ~
+sudo cp files/.profile ~
+sudo cp files/.shell.pre-oh-my-zsh
+sudo cp files/.zshrc ~
 
 echo "___________.__       .__       .__               .___"
 echo "\_   _____/|__| ____ |__| _____|  |__   ____   __| _/"
